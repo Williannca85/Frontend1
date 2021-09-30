@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: all .2s linear; 
+   background-color: #333;
+}
+
+/* html{
+   font-size: 45%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   scroll-padding-top: 7rem;
+} */
+
+section{
+   width: 100%;
+   height: 500px;
+   text-align: center;
+   padding: 40px 4%;
+   font-size: 20px;
+   color:  rgb(255, 11, 11);;
+
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+a{
+   font-size: 30px;
+}
+
+h1{
+   margin-bottom: 14px;
+   color: rgb(255, 11, 11);
+}
+
+
+
+section:nth-of-type(1) h1{
+   color: rgb(255, 11, 11);
+   font-size: 30px;
+   font-weight: 400;
+   margin-top: 150px;
+}
+
+section:nth-of-type(1){
+   background-image: url("img/the_vampire_diaries.jpg");
+   color: rgb(255, 11, 11);
+   font-size: 60px;
+   font-weight: 400;
+}
+section:nth-of-type(3){
+   background-image: url("img/como_eu_era_antes_de_você.jpg");
+   font-weight: 400;
+   font-size: 60px;
+}
+section:nth-of-type(5){
+   background-image: url("img/la_casa_de_papel.jpg");
+   font-weight: 400;
+   font-size: 60px;
+}
+section:nth-of-type(7){
+   background-image: url("img/stranger_things.jpg");
+   font-weight: 400;
+   font-size: 60px;
+}
+section:nth-of-type(9){
+   background-image: url("img/frozen.jpg");
+   font-weight: 400;
+   font-size: 60px;
+}
+
+.footer {
+	margin: 100px auto 0;
+	width: 100%;
+	color: #808080;
+}
+.footer .social i {
+	padding-right: 26px;
+	font-size: 28px;
+}
+.flex {
+	display: flex;
+	padding-bottom: 80px;
+}
+.footer .info {
+	width: 25%;
+}
+.footer .info ul {
+	list-style: none;
+	display: inline;
+	font-size: 13px;
+}
+.footer .info ul li {
+	margin-top: 8px;
+}
